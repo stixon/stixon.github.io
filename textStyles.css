@@ -1,0 +1,19 @@
+.JobTitle{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	padding-top:15px;
+	padding-bottom:5px;
+}
+.JobEmployer{
+	font-family: 'Roboto', sans-serif;
+	font-size:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.JobDate{
+	font-family: 'Roboto', sans-serif;
+	font-size:5px;
+	font-weight:bold;
+	padding-bottom:5px;
+	color:#F26419;
+}
