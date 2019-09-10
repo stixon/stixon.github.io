@@ -1,0 +1,25 @@
+.slideshow{
+	
+}
+
+.slideshow-image{
+}
+
+.scroll-button-holder{
+	position:absolute;
+	
+	bottom:0;
+
+
+}
+
+.scroll-button{
+	font-size:65px;
+	position:relative;
+	
+	
+}
+.scroll-button:hover{
+	color:white;
+	
+}
