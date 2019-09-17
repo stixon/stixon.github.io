@@ -90,28 +90,30 @@
   
 		</div>
 		<script>
+		
 		var slideIndex = 0;
-		generateSlides(0);
+		generateSlides(slideIndex);
 		
 		function right (){
-			generateSlides(slideIndex+1)
+			generateSlides(slideIndex+1);
 		}
 		
 		function left (){
-			generateSlides(slideIndex-1)
+			generateSlides(slideIndex-1);
 		}
 		
-		function generateSlides (x){
-		var slideObjects = document.getElementByClassName("slideshow-image");
-		if (x>slideObjects.length){slideIndex =0}
-		if (x<0){slideIndex = slide.length-1)
+		function generateSlides(x){
+		var slideObjects = document.getElementsByClassName("slideshow-image");
+		if (x>slideObjects.length-1){slideIndex =0}
+		else if (x<0){slideIndex = slideObjects.length-1;}
+		else{slideIndex=x;
+		}
 		for (i =0;i<slideObjects.length;i++){
 			slideObjects[i].style.display = "none"
 		}
-		
 		slideObjects[slideIndex].style.display="block";
-		
 		}
+
 		</script>
 	</body>
 </html>
