@@ -1,8 +1,13 @@
 .slideshow{
-	
+	position: relative;
+	max-width:2000px;
+	margin:auto;
 }
 
 .slideshow-image{
+	object-fit: cover;
+	width:100%;
+	
 }
 
 .scroll-button-holder{
@@ -12,12 +17,16 @@
 
 
 }
-
+.prev,.next{
+}
+.next{
+}
 .scroll-button{
 	font-size:65px;
-	position:relative;
-	
-	
+	position:absolute;
+	cursor:pointer;
+	top:50%;
+	width:auto;
 }
 .scroll-button:hover{
 	color:white;

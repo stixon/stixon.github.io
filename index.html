@@ -11,14 +11,13 @@
 	<body>
 	
 		<div class="slideshow" >
-			<img class="slideshow-image" src="https://live.staticflickr.com/4490/37501111846_6f469a0fab_k.jpg" style="width:100%; display:none" width="2048" height="1151">
-			<img class="slideshow-image" src="https://live.staticflickr.com/4490/37501111846_6f469a0fab_k.jpg" style="width:100%; display:none" width="2048" height="1151">
-			<img class="slideshow-image" src="https://live.staticflickr.com/4300/36078051262_337ea79600_o.jpg" style="width:100%; display:none" width="5184" height="2912" alt="Ottawa">
-			<img class="slideshow-image" src="https://live.staticflickr.com/8395/8633677312_0095705cf6_b.jpg"  style="width:100%" width="1000" height="718" alt="University of Ottawa.">
+			<img class="slideshow-image" src="https://live.staticflickr.com/4490/37501111846_6f469a0fab_k.jpg" >
+			<img class="slideshow-image" src="https://live.staticflickr.com/4300/36078051262_337ea79600_o.jpg" >
+			<img class="slideshow-image" src="https://live.staticflickr.com/8395/8633677312_0095705cf6_b.jpg"  >
 			
 			
-			<div class="scroll-button"  onclick="plusDivs(-1)">&#129174;</div>
-			<div class="scroll-button"  onclick="plusDivs(-1)">&#129172;</div>
+			<div class="scroll-button"  style="right:0;" onclick="right()">&#129174;</div>
+			<div class="scroll-button"   onclick="left()">&#129172;</div>
 			
 			
 		</div>
@@ -90,5 +89,29 @@
  
   
 		</div>
+		<script>
+		var slideIndex = 0;
+		generateSlides(0);
+		
+		function right (){
+			generateSlides(slideIndex+1)
+		}
+		
+		function left (){
+			generateSlides(slideIndex-1)
+		}
+		
+		function generateSlides (x){
+		var slideObjects = document.getElementByClassName("slideshow-image");
+		if (x>slideObjects.length){slideIndex =0}
+		if (x<0){slideIndex = slide.length-1)
+		for (i =0;i<slideObjects.length;i++){
+			slideObjects[i].style.display = "none"
+		}
+		
+		slideObjects[slideIndex].style.display="block";
+		
+		}
+		</script>
 	</body>
 </html>
