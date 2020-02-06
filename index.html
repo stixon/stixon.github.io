@@ -1,119 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="StyleSheet.css">
-		<link rel="stylesheet" type="text/css" href="textStyles.css">
-		<link rel="stylesheet" type="text/css" href="scrollStyle.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	Hello Cruel World
 		
 	</head>
 
 	<body>
 	
-		<div class="slideshow" >
-			<img class="slideshow-image no-highlit" src="https://live.staticflickr.com/4490/37501111846_6f469a0fab_k.jpg" >
-			<img class="slideshow-image no-highlit" src="https://live.staticflickr.com/4300/36078051262_337ea79600_o.jpg" >
-			<img class="slideshow-image no-highlit" src="https://live.staticflickr.com/8395/8633677312_0095705cf6_b.jpg"  >
-			
-			
-			<div class="scroll-button no-highlit"  style="right:0;" onclick="right()">&#129174;</div>
-			<div class="scroll-button no-highlit"   onclick="left()">&#129172;</div>
-			
-			
-		</div>
 		
-		<h1>Career Path - MAA</h1>
-		
-		<div class="timeline">		
-			<div class="container left">
-				
-				<div class="content">
-					<div class ="content_title">
-						<div class ="JobTitle"> Weapon System Engineer </div>
-						<div class ="JobEmployer"> Department of National Defence (DND) </div>
-						<div class ="JobDate"> 2019.Summer </div>
-						
-					</div>
-					<div class ="content_description">
-					<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="container right">
-				<div class="content">
-					<div class ="content_title">
-						<div class ="JobTitle"> Procurement Student </div>
-						<div class ="JobEmployer"> Royal Canadian Mint </div>
-						<div class ="JobDate"> 2018.Fall </div>
-						
-					</div>
-					<div class ="content_description">
-					<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="container left">
-				
-				<div class="content">
-					<div class ="content_title">
-						<div class ="JobTitle"> Jr. Building Systems Coordinator </div>
-						<div class ="JobEmployer"> PCL </div>
-						<div class ="JobDate"> 2018.Winter </div>
-						
-					</div>
-					<div class ="content_description">
-					<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-					</div>
-					
-				</div>
-			</div>
-			<div class="container right">
-				<div class="content">
-					<div class ="content_title">
-						<div class ="JobTitle"> Assitant Project Manager </div>
-						<div class ="JobEmployer"> Public Services and Procurement Canada (PSPC)</div>
-						<div class ="JobDate"> 2017.Summer </div>
-						
-					</div>
-					<div class ="content_description">
-					<p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-					</div>
-					
-				</div>
-			</div>
- 
- 
-  
-		</div>
-		<script>
-		
-		var slideIndex = 0;
-		generateSlides(slideIndex);
-		
-		function right (){
-			generateSlides(slideIndex+1);
-		}
-		
-		function left (){
-			generateSlides(slideIndex-1);
-		}
-		
-		function generateSlides(x){
-		var slideObjects = document.getElementsByClassName("slideshow-image");
-		if (x>slideObjects.length-1){slideIndex =0}
-		else if (x<0){slideIndex = slideObjects.length-1;}
-		else{slideIndex=x;
-		}
-		for (i =0;i<slideObjects.length;i++){
-			slideObjects[i].style.display = "none"
-		}
-		slideObjects[slideIndex].style.display="block";
-		}
-
-		</script>
 	</body>
 </html>
