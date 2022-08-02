@@ -2,218 +2,292 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karaté Fran-K-Orléans</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karaté Fran-K-Orléans</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
-    <style>
-        .icon-square {
-            width: 3rem;
-            height: 3rem;
-            border-radius: .75rem;
-        }
+  <style>
+    .icon-square {
+      width: 3rem;
+      height: 3rem;
+      border-radius: .75rem;
+    }
 
-        .bi {
-            vertical-align: -.125em;
-            fill: currentColor;
-        }
-    </style>
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+  </style>
 
 </head>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-    <symbol id="calendar3" viewBox="0 0 16 16">
-        <path
-            d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
-        <path
-            d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-    </symbol>
+  <symbol id="calendar3" viewBox="0 0 16 16">
+    <path
+      d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+    <path
+      d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+  </symbol>
 
 </svg>
 
 <body>
-    <div class="text-center">
-        <img class="img-fluid" src="./assets/logo.jpg" , alt="">
-    </div>
+  <div class="text-center">
+    <img class="img-fluid" src="./assets/logo.jpg" , alt="">
+  </div>
 
-    <div class="container-sm">
+  <div class="container-sm">
 
-        <div class="py-5" id="hanging-icons">
-            <h1 class="pb-2 border-bottom">Nos cours</h1>
+    <div class="py-5" id="hanging-icons">
+      <h1 class="pb-2 border-bottom">Nos cours</h1>
 
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-3 justify-content-evenly">
-                <div class="col col-lg-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h4>Débutant et intermédiaire</h4>
-                            <h6 class="card-subtitle mb-2 text-muted"> Ceinture blanche à orange</h6>
-                            <dl class="row">
-                                <dt class="col-sm-3"><i class="bi bi-clock"></i> Horraire</dt>
-                                <dd class="col-sm-9">Samedi 11h15-12h15</dd>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-3 justify-content-evenly">
+        <div class="col col-lg-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4>Débutant et intermédiaire</h4>
+              <h6 class="card-subtitle mb-2 text-muted"> Ceinture blanche à orange</h6>
+              <dl class="row">
+                <dt class="col-sm-3"><i class="bi bi-clock"></i> Horraire</dt>
+                <dd class="col-sm-9">Samedi 11h15-12h15</dd>
 
-                                <dt class="col-sm-3"><i class="bi bi-calendar-event"></i> Date</dt>
-                                <dd class="col-sm-9">
-                                    XX Septembre - YY Décembre
-                                </dd>
-                                <dt class="col-sm-3"><i class="bi bi-geo-alt-fill"></i> Lieu</dt>
-                                <dd class="col-sm-9">
-                                    Complexe Récréatif Bob-MacQuarrie Orléans
-                                </dd>
-                            </dl>
+                <dt class="col-sm-3"><i class="bi bi-calendar-event"></i> Date</dt>
+                <dd class="col-sm-9">
+                  XX Septembre - YY Décembre
+                </dd>
+                <dt class="col-sm-3"><i class="bi bi-geo-alt-fill"></i> Lieu</dt>
+                <dd class="col-sm-9">
+                  Complexe Récréatif Bob-MacQuarrie Orléans
+                </dd>
+              </dl>
 
-                            <a href="#" class="btn btn-primary ">
-                                S'inscrire
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-6">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h4 class="card-title">Avancé</h4>
-                            <h6 class="card-subtitle mb-2 text-muted"> Ceinture verte à noire</h6>
-                            <dl class="row">
-                                <dt class="col-sm-3"><i class="bi bi-clock"></i> Horraire</dt>
-                                <dd class="col-sm-9">Samedi 12h15-13h15</dd>
-                                <dt class="col-sm-3"><i class="bi bi-calendar-event"></i> Date</dt>
-                                <dd class="col-sm-9">
-                                    XX Septembre - YY Décembre
-                                </dd>
-                                <dt class="col-sm-3"><i class="bi bi-geo-alt-fill"></i> Lieu</dt>
-                                <dd class="col-sm-9">
-                                    Complexe Récréatif Bob-MacQuarrie Orléans
-                                </dd>
-                            </dl>
-                            <a href="#" class="btn btn-primary">
-                                S'inscrire
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              <a href="#" class="btn btn-primary ">
+                S'inscrire
+              </a>
             </div>
-
-
+          </div>
         </div>
-
-        <div class="py-3">
-            <h1>Karaté Chito-Ryu</h1>
-            <p>
-                Le karaté est un art martial comprenant les techniques de positions, déplacement, blocages, coups de
-                poings et de pieds. L'apprentissage des katas (combats contre adversaire imaginaires) et du kumité
-                (combats contrôlés) est excellent pour la concentration, la flexibilité, la force et le bien-être.
-            </p>
-        </div>
-        <div class="py-3">
-            <h1>Nos instructeurs</h1>
-            <div class="">
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div style="text-align: center;">
-                                <svg class="bd-placeholder-img  rounded-circle" width="140" height="140"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
-                                    focusable="false" style="margin-top: 1rem;">
-                                    <rect width="100%" height="100%" fill="#55595c" />
-                                </svg>
-                            </div>
-
-                            <div class="card-body">
-                                <h4 style="text-align: center;">Josée Blanchard</h4>
-                                <h6 class="text-muted" style="text-align: center; ">Instructrice en chef. Sensei 6e dan
-                                </h6>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div style="text-align: center;">
-                                <svg class="bd-placeholder-img  rounded-circle" width="140" height="140"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
-                                    focusable="false" style="margin-top: 1rem;">
-                                    <rect width="100%" height="100%" fill="#55595c" />
-                                </svg>
-                            </div>
-
-                            <div class="card-body">
-                                <h4 style="text-align: center;">Marc-André Arsenault</h4>
-                                <h6 class="text-muted" style="text-align: center; ">Sensei 3e dan</h6>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div style="text-align: center;">
-                                <svg class="bd-placeholder-img  rounded-circle" width="140" height="140"
-                                    xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
-                                    focusable="false" style="margin-top: 1rem;">
-                                    <rect width="100%" height="100%" fill="#55595c" />
-                                </svg>
-                            </div>
-
-                            <div class="card-body">
-                                <h4 style="text-align: center;">Félix Collin</h4>
-                                <h6 class="text-muted" style="text-align: center; ">Sensei 1e dan</h6>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to
-                                    additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="col col-lg-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h4 class="card-title">Avancé</h4>
+              <h6 class="card-subtitle mb-2 text-muted"> Ceinture verte à noire</h6>
+              <dl class="row">
+                <dt class="col-sm-3"><i class="bi bi-clock"></i> Horraire</dt>
+                <dd class="col-sm-9">Samedi 12h15-13h15</dd>
+                <dt class="col-sm-3"><i class="bi bi-calendar-event"></i> Date</dt>
+                <dd class="col-sm-9">
+                  XX Septembre - YY Décembre
+                </dd>
+                <dt class="col-sm-3"><i class="bi bi-geo-alt-fill"></i> Lieu</dt>
+                <dd class="col-sm-9">
+                  Complexe Récréatif Bob-MacQuarrie Orléans
+                </dd>
+              </dl>
+              <a href="#" class="btn btn-primary">
+                S'inscrire
+              </a>
             </div>
-
+          </div>
         </div>
-        <div class="py-3">
-            <h1>Notre histoire</h1>
-            <div class="clearfix">
-                <p>
-                    Le club de karaté Fran-K-Orléans existe depuis 1987. Ce fut le premier club d'arts martiaux francophone
-                    dans la région. Les deux fondateurs du club sont Claude Larocque (4e Dan) et son fils Jean (3e Dan).
-                </p>
-                <div class="col-sm-6 float-sm-end col-12 mb-3 text-center">
-                    <img style="width:100%" src="./assets/logo.jpg"  alt="...">
-                    <figcaption style="width:100%" class="figure-caption">A caption for the above image.</figcaption>
-                </div>
-
-                <p>
-                    Au fils des ans, plusieurs ceintures noires en karaté se sont joints au club dont Alfred Dufour, Marc
-                    Lupien, André Vermette, Michel Sauvé, George Ramsay, Laurent Couture et Josée Blanchard.
-                </p>
-                <p>
-                    En 1999, Claude Larocque annonçait sa retraite et passait le flambeau à Josée Blanchard et Laurent
-                    Couture. Aujourd’hui en 2022, Josée Blanchard (6e Dan) continue d’enseigner le karaté, de transmettre sa
-                    passion et partager son expérience. Elle est accompagnée par Marc-André Arsenault (3e Dan) et Félix
-                    Collin (1e Dan).
-                </p>
-
-
-                <p>
-                    Des centaines de jeunes et un bon nombre de parents y ont participé au cours de ces années et ont obtenu
-                    diverses ceintures pour souligner leurs progrès. Au-delà de 35 ceintures noires ont été obtenues par nos
-                    étudiants. Certaines de nos ceintures noires ont continué l’atteinte de l’excellence en poursuivant des
-                    études supérieures en dentisterie, médecine, microbiologie, administration et génie. Nous en sommes très
-                    fiers.
-                </p>
-                
-            </div>
-        </div>
+      </div>
 
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <div class="py-3">
+      <h1>Karaté Chito-Ryu</h1>
+      <p>
+        Le karaté est un art martial comprenant les techniques de positions, déplacement, blocages, coups de
+        poings et de pieds. L'apprentissage des katas (combats contre adversaire imaginaires) et du kumité
+        (combats contrôlés) est excellent pour la concentration, la flexibilité, la force et le bien-être.
+      </p>
+    </div>
+    <div class="py-3">
+      <h1>Nos instructeurs</h1>
+      <div class="">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div style="text-align: center;">
+                <svg class="bd-placeholder-img  rounded-circle" width="140" height="140"
+                  xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  style="margin-top: 1rem;">
+                  <rect width="100%" height="100%" fill="#55595c" />
+                </svg>
+              </div>
+
+              <div class="card-body">
+                <h4 style="text-align: center;">Josée Blanchard</h4>
+                <h6 class="text-muted" style="text-align: center; ">Instructrice en chef. Sensei 6e dan
+                </h6>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">A commencé le karaté en 1976</li>
+                  <li class="list-group-item">Participé à des compétitions nationales et internationales. </li>
+                  <li class="list-group-item">Intronisée aux Temples de la renommée du Canadian Karate Associations et
+                    au Canadian Black Belt Hall of Fame en 2017.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div style="text-align: center;">
+                <svg class="bd-placeholder-img  rounded-circle" width="140" height="140"
+                  xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  style="margin-top: 1rem;">
+                  <rect width="100%" height="100%" fill="#55595c" />
+                </svg>
+              </div>
+
+              <div class="card-body">
+                <h4 style="text-align: center;">Marc-André Arsenault</h4>
+                <h6 class="text-muted" style="text-align: center; ">Sensei 3e dan</h6>
+                <p class="card-text">This is a wider card with supporting text below as a natural
+                  lead-in to
+                  additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div style="text-align: center;">
+                <svg class="bd-placeholder-img  rounded-circle" width="140" height="140"
+                  xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  style="margin-top: 1rem;">
+                  <rect width="100%" height="100%" fill="#55595c" />
+                </svg>
+              </div>
+
+              <div class="card-body">
+                <h4 style="text-align: center;">Félix Collin</h4>
+                <h6 class="text-muted" style="text-align: center; ">Sensei 1e dan</h6>
+                <p class="card-text">This is a wider card with supporting text below as a natural
+                  lead-in to
+                  additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="py-3">
+      <h1>Notre histoire</h1>
+      <div class="clearfix">
+        <p>
+          Le club de karaté Fran-K-Orléans existe depuis 1987. Ce fut le premier club d'arts martiaux francophone
+          dans la région. Les deux fondateurs du club sont Claude Larocque (4e Dan) et son fils Jean (3e Dan).
+        </p>
+        <div class="col-sm-6 float-sm-end col-12 mb-3 text-center">
+          <img style="width:100%" src="./assets/logo.jpg" alt="...">
+          <figcaption style="width:100%" class="figure-caption">A caption for the above image.</figcaption>
+        </div>
+
+        <p>
+          Au fils des ans, plusieurs ceintures noires en karaté se sont joints au club dont Alfred Dufour, Marc
+          Lupien, André Vermette, Michel Sauvé, George Ramsay, Laurent Couture et Josée Blanchard.
+        </p>
+        <p>
+          En 1999, Claude Larocque annonçait sa retraite et passait le flambeau à Josée Blanchard et Laurent
+          Couture. Aujourd’hui en 2022, Josée Blanchard (6e Dan) continue d’enseigner le karaté, de transmettre sa
+          passion et partager son expérience. Elle est accompagnée par Marc-André Arsenault (3e Dan) et Félix
+          Collin (1e Dan).
+        </p>
+
+
+        <p>
+          Des centaines de jeunes et un bon nombre de parents y ont participé au cours de ces années et ont obtenu
+          diverses ceintures pour souligner leurs progrès. Au-delà de 35 ceintures noires ont été obtenues par nos
+          étudiants. Certaines de nos ceintures noires ont continué l’atteinte de l’excellence en poursuivant des
+          études supérieures en dentisterie, médecine, microbiologie, administration et génie. Nous en sommes très
+          fiers.
+        </p>
+
+      </div>
+    </div>
+    <div class="py-3">
+      <h1>Galerie</h1>
+      <div class="album">
+        <div class="container">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="row row-cols-1 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy"
+                      src="https://www.dropbox.com/s/ncypfujrz4kcqno/7457187905450493318.jpg?raw=1" width="100%"
+                      height="100%">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy"
+                      src="https://www.dropbox.com/s/h1y22dqq6azqt8e/4485929361843599580.jpg?raw=1" width="100%"
+                      height="100%">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row row-cols-1 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy"
+                      src="https://www.dropbox.com/s/3fy8slkq5s8cjf9/1991.karate.club.jpg?raw=1" width="100%"
+                      height="100%">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy"
+                      src="https://www.dropbox.com/s/g48tmmqo61p7a1d/IMG_0741.JPG?raw=1" width="100%" height="100%">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy"
+                      src="https://www.dropbox.com/s/3zqy8xfqh27heiu/1304524941181711238.jpg?raw=1" width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="row row-cols-1 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy"
+                      src="https://www.dropbox.com/s/l5lpl2t7ejoxwy6/1991.karate.J.k%20%282%29.jpg?raw=1" width="100%"
+                      height="100%">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy" src="https://www.dropbox.com/s/pn73r54dey70qwz/4mars2017-1.jpg?raw=1"
+                      width="100%" height="100%">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img class="card-img" loading="lazy" src="https://www.dropbox.com/s/hvkyzt6mt8kdg8j/6155359648125846110.jpg?raw=1"
+                      width="100%" height="100%">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
 </body>
 
 </html>
